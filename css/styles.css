@@ -49,6 +49,19 @@ i, span {
     display: inline-block;
 }
 
+
+/* ---------------------------------------------------
+    IMAGES STYLE
+----------------------------------------------------- */
+/* .img-fluid{
+    width:100%;
+    height: auto;
+} */
+
+img{
+    width:500px;
+}
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -190,8 +203,6 @@ a.article, a.article:hover {
     color: #fff !important;
 }
 
-
-
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
@@ -201,6 +212,9 @@ a.article, a.article:hover {
     transition: all 0.3s;
 }
 
+.footer{
+    margin-left: 10px;
+}
 
 /* ---------------------------------------------------
     MEDIAQUERIES
@@ -258,3 +272,4 @@ a.article, a.article:hover {
         display: none;
     }
 }
+
