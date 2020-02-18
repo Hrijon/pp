@@ -14,7 +14,7 @@ p {
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #999;
+    color: black;
 }
 
 a, a:hover, a:focus {
@@ -49,7 +49,13 @@ i, span {
     display: inline-block;
 }
 
+h4{
+    color:#7386D5;
+}
 
+h2{
+    color: #47748b;
+}
 /* ---------------------------------------------------
     IMAGES STYLE
 ----------------------------------------------------- */
@@ -59,9 +65,35 @@ i, span {
 } */
 
 img{
-    width:500px;
+    width:390px;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom:10px;
 }
 
+/* ---------------------------------------------------
+    CARD STYLE
+----------------------------------------------------- */
+/* .top{
+    background-image: url(../img/darkblue.jpg);
+} */
+
+#home{
+    background-color: rgb(230, 230, 250);
+}
+
+#about{
+    background-color: rgb(230, 230, 250);
+}
+#projects{
+    background-color: rgb(230, 230, 250);
+}
+#galarry{
+    background-color: rgb(241, 206, 212);
+}
+#contact{
+    background-color: rgb(236, 236, 243);
+}
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -238,11 +270,11 @@ a.article, a.article:hover {
         margin-left: 0 !important;
     }
 
-    #sidebar .sidebar-header h3, #sidebar .CTAs {
+    #sidebar #sidebar-header .sidebar-header h3, #sidebar .CTAs{
         display: none;
     }
 
-    #sidebar .sidebar-header strong {
+    #sidebar strong {
         display: block;
     }
 
