@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- meta tags -->
+  <meta name="author" content="Rijan Chapagain">
+  <meta name="keywords" content="rijan, personal_portfolio">
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+  <meta content="utf-8" http-equiv="encoding" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!--build:css-->
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Scrollbar Custom CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+  <!-- endbuild -->
+
+  <title>PP</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <h3>Rijan Chapagain</h3>
+            <strong>RC</strong>
+        </div>
+
+        <ul class="list-unstyled components">
+            <li class="active">
+                <a href="index.html"> <i class="fa fa-arrow-left"></i> Back to Home </a>
+            </li>
+            
+            <hr>
+            <li>
+                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                  <i class="fa fa-sticky-note"></i> Projects Details
+                </a>
+                <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <li>
+                        <a href="#aar">Analysing Results</a>
+                    </li>
+                    <li>
+                        <a href="#hw">Hiring Website</a>
+                    </li>
+                    <li>
+                        <a href="#guess_name">Guess my name</a>
+                    </li>
+                    <li>
+                      <a href="#date_time">Date & time</a>
+                  </li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="footer text-dark">
+          <p class="text-dark">&copy;
+            <script>document.write(new Date().getFullYear());</script>
+          </p>
+        </div> 
+
+    </nav>
+
+    <!-- Page Content  -->
+    <div id="content">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid top">
+                <button type="button" id="sidebarCollapse" class="btn btn-info">
+                    <i class="fa fa-align-left"></i>
+                    <span>Toggle Sidebar</span>
+                </button>
+            </div>
+        </nav>
+
+            <div id="projects">
+                <h2>Projects</h2>
+                <p>
+
+                    <div id="aar">
+                    <h4>Analysing Assignment Results (AAR)</h4>
+                        <i>AAR is a website written in JavaScript and HTML and style with css.</i>
+                        The first screenshot represent the starting phase of website when the attributes of table are null. And the new inputs are name 'alex' and marks '68'.<br>
+                        <img src="img/as_results2.png" class="img-fluid img-thumbnail" alt="Analysing student results"><br>
+                        The second screenshot represents the result after entering the avove mentioned values. It also display the grade and percentage by itself based on the student marks <br>
+                        <img src="img/as_results.png" class="img-fluid img-thumbnail" alt="Analysing student results"><br>
+                    </div>
+
+                    <div id="hw">
+                    <h4>Hiring Website</h4>
+                        <i>This is a hiring website written in JavaScript,Php, html and style with css and bootstrap components.</i>
+                        This website is running by specific company, where employee can post jobs and employer can become a member of that company to seek jobs. 
+                        Company is responsible to train employer and send them to the appropriate employee.
+                        <br><img class="" src="img/hire.png" class="img-fluid" alt="Hiring Website"><br>
+                    </div>
+
+                    <div id="guess_name">
+                    <h4>Guess my name</h4>
+                        <i>Guess my name is a website written in Php and HTML. </i>
+                        This website is about gussing name, Which can be very useful on checking username or conformation of username in websites for security purpose (this is reusable code).
+                        The first screenshot is the result of inputing wrong name and hit submit. 
+                        <br><img class="" src="img/guess_name.png"><br>
+                        The second screenshot is the result of inputing right name. we can also see our inputs in Your Input bar.
+                        <br><img class="" src="img/guess_name2.png"><br>
+                    </div>
+
+                    <div id="date_time">
+                    <h4>Current Colourful date and time</h4> 
+                        <i>This website is written in JavaScript and HTML and style with css.</i>
+                        It display the current date and time of current geo-location, in different colours.
+                        <br><img class="" src="img/date.png"><br>
+                    </div>
+                    
+                </p>
+                
+            
+    </div>
+
+
+
+  <!--build:js js/main.js -->
+  <!-- jQuery  -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  
+  <!-- Popper.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  
+  <!-- Bootstrap JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+  <!-- font-awesome -->
+  <script src="https://kit.fontawesome.com/yourcode.js"></script>
+
+  <!-- jQuery Custom Scroller CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+  <script src="js/script.js"></script>
+  <!--endbuild-->
+
+</body>
+
+</html>
