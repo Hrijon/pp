@@ -6,7 +6,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    background: linear-gradient(to left,whitesmoke 0%, white,  lightgrey 100%);
+    background: linear-gradient(to right, whitesmoke 0%, lightgrey 100%);
 }
 
 /* Buttons */
@@ -29,9 +29,8 @@ body {
     border-radius: 25px;
 }
 
-#sidebarCollapse {background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97 51%, #DD5E89 100%)}
-.reset {background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6 51%, #2BC0E4 100%)}
-.back {background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%)}
+#sidebarCollapse  {background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6 51%, #2BC0E4 100%)}
+/* .back {background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%)} */
 
 #sidebarCollapse:hover, .reset:hover, .back:hover{ 
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -138,7 +137,7 @@ img{
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: linear-gradient(to right, #33ccff 0%, lightgreen 80% , #ff99cc 100%);
+    background: rgb(138, 236, 240);
     color: black;
     transition: all 0.3s;
 }
@@ -189,7 +188,7 @@ img{
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: linear-gradient(to bottom, #33ccff 0%, lightgreen, #ff99cc 100%);
+    background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6 100%)
 }
 
 #sidebar .sidebar-header strong {
@@ -217,7 +216,7 @@ img{
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
     color: #fff;
-    background: linear-gradient(to bottom, #33ccff 0%, lightgreen, #ff99cc 100%);
+    background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6 100%)
 }
 
 a[data-toggle="collapse"] {
