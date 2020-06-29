@@ -49,29 +49,20 @@
                 </a>
                 <ul class="collapse list-unstyled" id="pageSubmenu">
                     <li>
-                        <a href="#aar">Analysing Results</a>
+                        <a href="#weather">Weather Forecast</a>
                     </li>
                     <li>
-                        <a href="#hw">Hiring Website</a>
+                        <a href="#tableau">Tableau Visulization</a>
                     </li>
                     <li>
-                        <a href="#guess_name">Guess my name</a>
+                        <a href="#foodTracker">Food Tracker</a>
                     </li>
                     <li>
-                        <a href="#date_time">Date & time</a>
+                        <a href="#studentRecord">Student Record System</a>
                     </li>
                     <li>
-                        <a href="#aar">Analysing Results</a>
+                        <a href="#hiring">Hiring Website</a>
                     </li>
-                    <li>
-                        <a href="#hw">Hiring Website</a>
-                    </li>
-                    <li>
-                        <a href="#guess_name">Guess my name</a>
-                    </li>
-                    <li>
-                    <a href="#date_time">Date & time</a>
-                </li>
                 </ul>
             </li>
         </ul>
@@ -85,66 +76,62 @@
 
     <!-- Page Content  -->
     <div id="content">
+        <div class="container-fluid top">
+            <button type="button" id="sidebarCollapse" class="btn btn-info">
+                <i class="fa fa-align-left"></i>
+                <span>Toggle Sidebar</span>
+            </button>
+        </div>
 
-        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
-            <div class="container-fluid top">
-                <button type="button" id="sidebarCollapse" class="btn btn-info">
-                    <i class="fa fa-align-left"></i>
-                    <span>Toggle Sidebar</span>
-                </button>
-            </div>
-        <!-- </nav> -->
+        <div id="projects">
+            <a href="#projects"> <h2>Projects</h2> </a>
+            <p>
+                <div id="weather">
+                    <a href="#weather"> <h4>Weather Forecast</h4>
+                    <a class="text-success" href="https://github.com/rijan-chapagain/weather-forecast" ><u>github.com/rijan-chapagain/weather-forecast</u></a><br>
+                        This project was a part of my university individual assignments of unit ICT375 (Advanced Web Programming).
+                        In this project, datasets of Murdoch weather station was provided, and i have to develop a SPA (Single Page web Application). 
+                        This app display different visulization(line graphs) and table according to user inputs timeframe, measure, and format in same page(don't need to reload browser after each selection).
+                    <br>
+                    <img src="img/WeatherProject.png" class="img-fluid img-thumbnail" alt="Weather Forecast"><br>
+                </div>
 
-            <div id="projects">
-                <h2>Projects</h2>
-                <p>
-                    <div id="wf">
-                        <a href="wf"> <h4>Weather Forecast</h4>
-                        <a class="text-success" href="https://github.com/rijan-chapagain/weather-forecast" ><u>github.com/rijan-chapagain/weather-forecast</u></a><br>
-                            This project was a part of my university individual assignments of unit ICT375 (Advanced Web Programming).
-                            In this project, datasets of Murdoch weather station was provided, and i have to develop a SPA (Single Page web Application). 
-                            This app display different visulization(line graphs) and table according to user inputs timeframe, measure, and format in same page(don't need to reload browser after each selection).
+                <div id="tableau">
+                    <a href="#tableau"> <h4>Tableau visulization</h4>
+                        Tableau visulization was a university project of unit ICT394 (Business Intelligence Application Development).
+                        This project was about reporting the cases of COVID-19 pandemic cases in australian jurisdiction(state & territory).
                         <br>
-                       <img src="img/WeatherProject.png" class="img-fluid img-thumbnail" alt="Weather Forecast"><br>
-                    </div>
+                    <img src="img/monthlyTableau.png" class="img-fluid img-thumbnail" alt="Weather Forecast"><br>
+                    <img src="img/stateMonthlyTableau.png" class="img-fluid img-thumbnail" alt="Weather Forecast"><br>
+                </div>
 
-                    <div id="wf">
-                        <a href="wf"> <h4>Tableau visulization</h4>
-                            Tableau visulization was a university project of unit ICT394 (Business Intelligence Application Development).
-                            This project was about reporting the cases of COVID-19 pandemic cases in australian jurisdiction(state & territory).
-                            <br>
-                        <img src="img/monthlyTableau.png" class="img-fluid img-thumbnail" alt="Weather Forecast"><br>
-                        <img src="img/stateMonthlyTableau.png" class="img-fluid img-thumbnail" alt="Weather Forecast"><br>
-                    </div>
+                <div id="foodTracker">
+                    <a href="#foodtracker"><h4>Food Tracker</h4></a>
+                    <a class="text-success" href="https://github.com/rijan-chapagain/foodTracker" ><u>github.com/rijan-chapagain/foodTracker</u></a><br>
+                    This is designed for home food tracking, while we are staying at home due to COVID-19 pandemic. We wanted to track our daily food consumption and future planning.
+                    So I designed this website. <br>
+                    <img src="img/foodTracker.png" class="img-fluid img-thumbnail" alt="food tracker"><br>
+                </div>
 
-                    <div id="ft">
-                        <h4>Food Tracker</h4>
-                        <a class="text-success" href="https://github.com/rijan-chapagain/foodTracker" ><u>github.com/rijan-chapagain/foodTracker</u></a><br>
-                        This is designed for home food tracking, while we are staying at home due to COVID-19 pandemic. We wanted to track our daily food consumption and future planning.
-                        So I designed this website. <br>
-                       <img src="img/foodTracker.png" class="img-fluid img-thumbnail" alt="food tracker"><br>
-                    </div>
+                <div id="studentRecord">
+                    <a href="#studentRecord"> <h4>Student Record System (SRS)</h4> </a>
+                    <a class="text-success" href="https://github.com/rijan-chapagain/studentRecordSystem.git" ><u>github.com/rijan-chapagain/studentRecordSystem</u></a><br>
 
-                    <div id="srs">
-                        <h4>Student Record System (SRS)</h4>
-                        <a class="text-success" href="https://github.com/rijan-chapagain/studentRecordSystem.git" ><u>github.com/rijan-chapagain/studentRecordSystem</u></a><br>
-        
-                            SRS is a Student Record System, which is developing a Web client and server architecture- based application, where the server is implemented using Node.js.
-                            The client will be a Web browser & communication between the client and server will be via the HTTP protocol.<br>
-                            <img src="img/srs.png" class="img-fluid img-thumbnail" alt="Analysing student results"><br>
-                    </div>
+                        SRS is a Student Record System, which is developing a Web client and server architecture- based application, where the server is implemented using Node.js.
+                        The client will be a Web browser & communication between the client and server will be via the HTTP protocol.<br>
+                        <img src="img/srs.png" class="img-fluid img-thumbnail" alt="Analysing student results"><br>
+                </div>
 
-                    <hr>
-                    <div id="hw">
-                    <h4>Hiring Website</h4>
+                <div id="hiring">
+                    <a href="#hiring"> <h4>Hiring Website</h4> </a>
                     <a class="text-success" href="https://github.com/rijan-chapagain/hiring_website" ><u>github.com/rijan-chapagain/hiring_website</u></a><br>
-
-                        <i>This is a hiring website written in JavaScript,Php, html and style with css and bootstrap components.</i>
-                        This website is running by specific company, where employee can post jobs and employer can become a member of that company to seek jobs. 
-                        Company is responsible to train employer and send them to the appropriate employee.
-                        <br><img class="" src="img/hire.png" class="img-fluid" alt="Hiring Website"><br>
-                    </div>                   
-                </p>           
+                    <i>This is a hiring website written in JavaScript,Php, html and style with css and bootstrap components.</i>
+                    This website is running by specific company, where employee can post jobs and employer can become a member of that company to seek jobs. 
+                    Company is responsible to train employer and send them to the appropriate employee.
+                    <br><img class="" src="img/hire.png" class="img-fluid" alt="Hiring Website"><br>
+                </div>                   
+            </p>           
+        </div>
     </div>
 
 

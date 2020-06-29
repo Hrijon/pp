@@ -118,13 +118,24 @@ img{
 /* ---------------------------------------------------
     CARD STYLE
 ----------------------------------------------------- */
-/* .top{
-    background-image: url(../img/darkblue.jpg);
-} */
+/* #projects {
+    width: auto;
+    height: auto;
+    border: 2px solid #cccf23;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #projects div {
+    width: auto;
+    height: auto;
+    border: 1px solid #cccf23;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  } */
 
-/* #contact{
-    background-color: rgb(236, 236, 243);
-} */
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
